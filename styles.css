@@ -45,6 +45,11 @@ body {
   font-size: 14px;
 }
 
+.nav a:hover {
+  font-weight: bold;
+  transition: 0.3s;
+}
+
 .cart {
   display: flex;
   align-items: center;
@@ -136,4 +141,153 @@ body {
   height: 50px;
   font-size: 14px;
   cursor: pointer;
+}
+
+.about-section {
+  background-color: white;
+  padding: 60px 40px;
+  margin-top: 100px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.about-image-wrapper {
+  position: relative;
+  width: fit-content;
+}
+
+.about-main-image {
+  width: 540px;
+}
+
+.about-badge {
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  width: 286px;
+  height: 286px;
+}
+
+.about-text {
+  max-width: 540px;
+}
+
+.about-title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-list {
+  padding-left: 20px;
+}
+
+.about-list li {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.5);
+}
+.deals-section-v2 {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.deals-title-v2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.highlight-text {
+  color: #f15a24;
+  font-family: "Noto Serif", serif;
+}
+
+.deals-subtitle {
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+  max-width: 800px;
+  margin: 0 auto 100px auto;
+}
+
+.deals-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.small-card-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 367px;
+}
+
+.small-card {
+  height: 200px;
+}
+
+.large-card {
+  height: 422px;
+}
+
+.deal-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.deal-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+
+.deal-overlay-v2 {
+  position: absolute;
+  bottom: 70px;
+  left: 110px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.deal-overlay-v1 {
+  position: absolute;
+  bottom: 150px;
+  left: 200px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.deal-overlay-v2 a {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  text-decoration: underline;
+  color: white;
+  width: fit-content;
+}
+
+.deal-overlay-v1 a {
+  display: block;
+  margin-top: 10px;
+  font-size: 28px;
+  text-decoration: underline;
+  color: white;
+  width: fit-content;
+  text-align: center;
 }
